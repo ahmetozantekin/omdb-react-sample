@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css?family=Teko:300,400,500,600,700&display=swap&subset=latin-ext');
+
+html, body {
+  background-color: #2a2c37;
+  font-family: 'Teko', sans-serif;
+}
+
+input {
+  position: relative;
+  width: 300px;
+  margin: 30px auto;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  display: block;
+  background-color: transparent;
+  padding: 10px 40px;
+  font-size: 21px;
+  color: #fff
+}
+
+.movieList {
+  display :block;
+  width: 500px;
+  margin: 10px auto
+}
+.deftones {
+  position: absolute;
+  height: 0; width: 0;
+  overflow: none;
+  left: -100%;
+}
+
+.movieList img {
+  width: 200px;
+  display: block;
+  margin: 0 auto 30px;
+  -webkit-filter: url(#duotone);
+  filter:  url(#duotone);
+}
+
+.movieList h1, h3, h4, p {
+  text-align: center;
+  font-size: 41px;
+  color: rgb(117, 130, 151);
+  font-weight: 600;
+}
+
+.movieList h3 {
+  margin: 2px 0;
+  font-size: 35px;
+  padding: 0;
+}
+
+.movieList h4 {
+  margin: 2px 0;
+  font-size: 23px;
+  padding: 0;
+  color: rgb(146, 158, 177);
+  font-weight: 400;
+}
+
+.movieList p {
+  margin: 20px 0 2px;
+  font-size: 21px;
+  padding: 0;
+  font-weight: 400;
+  color: rgb(255, 255, 255);
+}
+
+.ratings{
+  text-align: center; 
+  border-top: 1px solid rgb(117, 130, 151); 
+  padding-top: 20px;
+}
+
+.ratings span{
+  text-align: center;
+  font-size: 25px;
+  color: rgb(117, 130, 151);
+  font-weight: 600;
+  width: 80px;
+  display: inline-block;
+  text-align: left;
+}
+
+.ratings img{
+  width: 50px;
+  display: inline-block;
+  margin : 0 10px 0 0;
+  filter : none;
+  transform:translateY(1px)
+}
