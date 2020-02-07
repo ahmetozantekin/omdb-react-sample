@@ -64,7 +64,7 @@ class Infos extends Component {
 
     componentDidUpdate = async(prevProps) => {
         if (this.props.movieName !== prevProps.movieName) {
-            var config = { API_KEY: '/*YOUR_API_KEY_HERE*/', MOVIE_NAME: this.props.movieName};
+            var config = { API_KEY: 'b65913f3', MOVIE_NAME: this.props.movieName};
             const res = await axios.get('http://www.omdbapi.com/?apikey='+config.API_KEY+'&t='+config.MOVIE_NAME);
             this.setState({
                 movie : res.data
